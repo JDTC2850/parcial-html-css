@@ -115,3 +115,64 @@ article h2 {
 article p {
     color: #555;
 }
+/* FORMULARIO */
+
+#contacto {
+    margin-top: 60px;
+}
+
+#contacto h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+#contacto div {
+    margin-bottom: 15px;
+}
+
+#contacto label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 17px;
+}
+
+#contacto input,
+#contacto textarea {
+    width: 100%;
+    padding: 12px;
+
+    border: 1px solid #aaa;
+    border-radius: 3px;
+
+    font-family: inherit;
+    font-size: 16px;
+}
+
+#contacto textarea {
+    resize: vertical;
+}
+
+#contacto input:focus,
+#contacto textarea:focus {
+    outline: 2px solid #333;
+    border-color: #333;
+}
+
+#contacto button {
+    margin-top: 5px;
+
+    padding: 12px 50px;
+
+    background-color: #eeeeee;
+
+    border: 1px solid #aaa;
+    border-radius: 3px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+#contacto button:hover {
+    background-color: #dcdcdc;
+}
