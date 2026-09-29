@@ -218,3 +218,25 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    #articulos > div {
+        grid-template-columns: 1fr;
+    }
+
+    article img {
+        height: 250px;
+    }
+
+}
