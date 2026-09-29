@@ -176,3 +176,26 @@ article p {
 #contacto button:hover {
     background-color: #dcdcdc;
 }
+section:last-of-type {
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid #d5d5d5;
+    padding: 18px;
+}
+
+thead {
+    background-color: #f0f0f0;
+}
+
+tfoot {
+    background-color: #fafafa;
+}
